@@ -5,7 +5,7 @@ const path = require('path');
 app.use(express.static(path.join(__dirname, '/frontend/build')));
 
 app.get('/names', (req, res) => {
-    res.send("Craig Glass");
+    res.send("Craig Glassius");
 })
 
 app.listen(5000, () => {
